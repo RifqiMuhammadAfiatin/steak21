@@ -15494,7 +15494,7 @@ h3.title-small span {
     margin: 35px 0;
     font-size: 18px;
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 100px 1fr;
     grid-gap: 10px;
 }
 
@@ -15513,7 +15513,7 @@ h3.title-small span {
     margin-top: 10px;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 480px) {
     .w3l-menublock label.tabtle {
         margin: 0 5px;
         padding: 6px 15px;
@@ -15528,16 +15528,16 @@ h3.title-small span {
         font-size: 1.1em;
     }
     .menu-item {
-        grid-template-columns: 500px 1fr;
+        grid-template-columns: 70px 1fr;
     }
 }
 
-@media (max-width: 615px) {
+@media (max-width: 415px) {
     .w3l-menublock label.tabtle {
         margin: 5px 5px;
     }
     .menu-item {
-        grid-template-columns: 350px 1fr;
+        grid-template-columns: 60px 1fr;
     }
     .menu-item-name h6 {
         font-size: 18px;
