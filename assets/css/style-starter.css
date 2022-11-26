@@ -15494,7 +15494,7 @@ h3.title-small span {
     margin: 35px 0;
     font-size: 18px;
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 80px 1fr;
     grid-gap: 10px;
 }
 
